@@ -12,7 +12,7 @@
         </#list>
         </select>
         <input name="numbers"/>
-        <button type="submit">0</button>
+        <button type="submit">submit</button>
     </form>
 
 

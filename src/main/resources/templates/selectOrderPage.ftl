@@ -5,6 +5,8 @@
     <title>Title</title>
 </head>
 <body>
-    ${value!''}
+    <#list nums as num>
+        ${num},
+    </#list>
 </body>
 </html>
