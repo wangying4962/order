@@ -1,0 +1,20 @@
+server:
+  port: 80
+#  https 需要添加的
+  ssl:
+    key-store: classpath:215009706320820.pfx
+    key-store-password: 215009706320820
+    keyStoreType: PKCS12
+#    keyAlias: tomcat
+
+
+spring:
+  freemarker:
+    allow-request-override: false
+    cache: true
+    check-template-location: true
+    charset: UTF-8
+    content-type: text/html
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
